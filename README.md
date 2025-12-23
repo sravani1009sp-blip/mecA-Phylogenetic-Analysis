@@ -1,69 +1,57 @@
 # mecA-Phylogenetic-Analysis
 Phylogenetic analysis of mecA antibiotic resistance gene in Staphylococcus species using MEGA
 
-Project Overview
+# Phylogenetic Analysis of mecA Antibiotic Resistance Gene
 
-Antibiotic resistance is a major global health concern, particularly resistance to β-lactam antibiotics in Staphylococcus species. The mecA gene plays a crucial role in methicillin resistance by encoding an altered penicillin-binding protein (PBP2a), allowing bacteria to survive antibiotic treatment.
+## Overview
+This project involves a gene-based phylogenetic analysis of the **mecA antibiotic resistance gene** across different *Staphylococcus* species. The study aims to understand the evolutionary conservation and divergence of mecA, which plays a key role in methicillin resistance, using multiple sequence alignment and phylogenetic tree construction.
 
-This project uses bioinformatics and phylogenetic analysis to study the evolutionary relationships of the mecA gene across different Staphylococcus species. By comparing gene sequences and constructing a phylogenetic tree, the project highlights the conservation and divergence of this important resistance determinant.
+---
 
-Objectives
+## Tools Used
+- NCBI Nucleotide Database  
+- MEGA 12  
+- ClustalW  
+- MUSCLE  
 
-Retrieve mecA gene sequences from public databases
+---
 
-Perform multiple sequence alignment of mecA sequences
+## Dataset
+- Gene: mecA (partial coding sequences)  
+- Organisms: *Staphylococcus* species  
+- Sequence type: DNA (annotated partial CDS)  
 
-Construct a phylogenetic tree to study evolutionary relationships
+---
 
-Interpret conservation and divergence of the mecA gene
+## Methodology
+1. Retrieval of mecA gene sequences from the NCBI database  
+2. Selection of annotated and reliable partial CDS with overlapping regions  
+3. Multiple sequence alignment using ClustalW/MUSCLE in MEGA  
+4. Manual trimming of non-overlapping regions  
+5. Phylogenetic tree construction using the Neighbor-Joining method  
+6. Bootstrap analysis with 1000 replications  
 
-Dataset
+---
 
-Gene analyzed: mecA (partial coding sequences)
+## Results
+- mecA gene sequences showed high sequence conservation across *Staphylococcus* species  
+- Minor nucleotide variations indicated species-specific divergence  
+- The phylogenetic tree revealed close clustering of mecA sequences  
+- Short branch lengths reflected strong evolutionary conservation  
 
-Organisms: Multiple Staphylococcus species
+---
 
-Data source: NCBI Nucleotide Database
+## Conclusion
+The phylogenetic analysis demonstrates that the mecA gene is highly conserved among *Staphylococcus* species, suggesting a common evolutionary origin. This study highlights the usefulness of bioinformatics tools in understanding the evolution and dissemination of antibiotic resistance genes.
 
-Sequence type: DNA (annotated partial CDS with overlapping regions)
+---
 
- Tools & Software Used
+## Author
+**PARASURAMPURAM SRAVANI**  
+Biotechnology Student  
+Interest Areas: Bioinformatics, Antimicrobial Resistance, Food Biotechnology
 
-NCBI – Sequence retrieval
 
-MEGA 12 – Alignment and phylogenetic analysis
 
-ClustalW / MUSCLE – Multiple sequence alignment
 
-Methodology
 
-mecA gene sequences were retrieved from the NCBI database.
-
-Only annotated and reliable partial CDS sequences were selected.
-
-Multiple sequence alignment was performed using ClustalW/MUSCLE in MEGA.
-
-Non-overlapping regions were manually trimmed to ensure alignment quality.
-
-A Neighbor-Joining phylogenetic tree was constructed using the p-distance model.
-
-Bootstrap analysis with 1000 replications was used to test tree reliability.
-
-Results
-
-The mecA gene showed high sequence conservation across Staphylococcus species.
-
-Minor nucleotide variations indicated species-specific divergence.
-
-The phylogenetic tree revealed close clustering, suggesting a common evolutionary origin.
-
-Short branch lengths reflected the functional importance of mecA in antibiotic resistance.
-
-Conclusion
-
-This study demonstrates that the mecA gene is a highly conserved antibiotic resistance determinant among Staphylococcus species. Phylogenetic analysis provides valuable insights into the evolutionary stability and dissemination of resistance genes, emphasizing the role of bioinformatics in antimicrobial resistance research.
-
-Author
-
-Sravani P
-Biotechnology Student
