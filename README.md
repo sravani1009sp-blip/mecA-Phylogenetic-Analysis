@@ -27,7 +27,7 @@ Data source: NCBI Nucleotide Database
 
 Sequence type: DNA (annotated partial CDS with overlapping regions)
 
-🛠️ Tools & Software Used
+ Tools & Software Used
 
 NCBI – Sequence retrieval
 
